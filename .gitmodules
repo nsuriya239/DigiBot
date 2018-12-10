@@ -1,0 +1,3 @@
+[submodule "digitail"]
+	path = digitail
+	url = https://github.com/muralidharan-rade/digitail.git
