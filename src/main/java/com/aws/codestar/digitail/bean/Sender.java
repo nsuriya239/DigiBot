@@ -1,4 +1,4 @@
-package com.digitail.bean;
+package com.aws.codestar.digitail.bean;
 
 import java.io.Serializable;
 

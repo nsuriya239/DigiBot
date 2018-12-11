@@ -1,4 +1,4 @@
-package com.digitail.model;
+package com.aws.codestar.digitail.model;
 
 import java.util.HashMap;
 import java.util.Map;

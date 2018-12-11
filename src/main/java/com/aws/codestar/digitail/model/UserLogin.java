@@ -1,4 +1,4 @@
-package com.digitail.model;
+package com.aws.codestar.digitail.model;
 
 public class UserLogin {
 

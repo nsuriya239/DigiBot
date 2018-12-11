@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

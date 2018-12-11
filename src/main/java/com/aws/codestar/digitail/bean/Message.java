@@ -1,8 +1,8 @@
-package com.digitail.bean;
+package com.aws.codestar.digitail.bean;
 
 import java.io.Serializable;
 
-import com.digitail.bean.reply.QuickReply;
+import com.aws.codestar.digitail.bean.reply.QuickReply;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 

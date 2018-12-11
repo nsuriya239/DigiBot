@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -13,16 +13,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.digitail.bean.PageObjectBean;
-import com.digitail.bean.reply.ReplyObj;
-import com.digitail.command.PayloadCommand;
-import com.digitail.model.Laptops;
-import com.digitail.model.Laptops1;
-import com.digitail.model.Mobiles;
-import com.digitail.model.Mobiles1;
-import com.digitail.model.ProductModel;
-import com.digitail.util.BotUtil;
-import com.digitail.util.DigitailStringConstants;
+import com.aws.codestar.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.reply.ReplyObj;
+import com.aws.codestar.digitail.command.PayloadCommand;
+import com.aws.codestar.digitail.model.Laptops;
+import com.aws.codestar.digitail.model.Laptops1;
+import com.aws.codestar.digitail.model.Mobiles;
+import com.aws.codestar.digitail.model.Mobiles1;
+import com.aws.codestar.digitail.model.ProductModel;
+import com.aws.codestar.digitail.util.BotUtil;
+import com.aws.codestar.digitail.util.DigitailStringConstants;
 
 @Component
 public class QuickReplyPayloadCommand implements PayloadCommand {

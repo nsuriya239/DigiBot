@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.PageObjectBean;
 import com.google.gson.Gson;
 
 @Controller

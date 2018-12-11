@@ -1,4 +1,4 @@
-package com.digitail.bean.reply;
+package com.aws.codestar.digitail.bean.reply;
 
 import java.io.Serializable;
 

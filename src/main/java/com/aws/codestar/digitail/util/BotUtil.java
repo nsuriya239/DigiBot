@@ -1,4 +1,4 @@
-package com.digitail.util;
+package com.aws.codestar.digitail.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,16 +19,16 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import com.digitail.bean.Attachment;
-import com.digitail.bean.Button;
-import com.digitail.bean.Element;
-import com.digitail.bean.PageObjectBean;
-import com.digitail.bean.Payload;
-import com.digitail.bean.UserProfile;
-import com.digitail.bean.reply.QuickReply;
-import com.digitail.bean.reply.Recipient;
-import com.digitail.bean.reply.ReplyMessage;
-import com.digitail.bean.reply.ReplyObj;
+import com.aws.codestar.digitail.bean.Attachment;
+import com.aws.codestar.digitail.bean.Button;
+import com.aws.codestar.digitail.bean.Element;
+import com.aws.codestar.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.Payload;
+import com.aws.codestar.digitail.bean.UserProfile;
+import com.aws.codestar.digitail.bean.reply.QuickReply;
+import com.aws.codestar.digitail.bean.reply.Recipient;
+import com.aws.codestar.digitail.bean.reply.ReplyMessage;
+import com.aws.codestar.digitail.bean.reply.ReplyObj;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component

@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

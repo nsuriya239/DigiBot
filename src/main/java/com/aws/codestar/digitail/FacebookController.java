@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.facebook.api.Facebook;

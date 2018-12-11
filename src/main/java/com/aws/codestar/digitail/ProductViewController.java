@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,8 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.digitail.model.ProductView;
-import com.digitail.util.DigitailStringConstants;
+import com.aws.codestar.digitail.model.ProductView;
+import com.aws.codestar.digitail.util.DigitailStringConstants;
 
 @Controller
 @RequestMapping("/view")

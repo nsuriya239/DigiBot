@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import java.net.URISyntaxException;
 import java.util.HashMap;
@@ -15,25 +15,25 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestClientException;
 
-import com.digitail.bean.PageObjectBean;
-import com.digitail.bean.reply.FBReply;
-import com.digitail.bean.reply.ReplyObj;
-import com.digitail.command.AccountLinkingCommand;
-import com.digitail.command.AttachmentPayloadCommand;
-import com.digitail.command.BrowsePayloadCommand;
-import com.digitail.command.CustomerSupportCommand;
-import com.digitail.command.DefaultPayloadCommand;
-import com.digitail.command.GetStartedPayloadCommand;
-import com.digitail.command.GraceReplyPayloadCommand;
-import com.digitail.command.GreetingPayloadCommand;
-import com.digitail.command.OfferPayloadCommand;
-import com.digitail.command.PayloadCommand;
-import com.digitail.command.PostbackPayloadCommand;
-import com.digitail.command.SearchPayloadCommand;
-import com.digitail.command.SupportPayloadCommand;
-import com.digitail.command.SwearPayloadCommand;
-import com.digitail.util.BotUtil;
-import com.digitail.util.DigitailStringConstants;
+import com.aws.codestar.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.reply.FBReply;
+import com.aws.codestar.digitail.bean.reply.ReplyObj;
+import com.aws.codestar.digitail.command.AccountLinkingCommand;
+import com.aws.codestar.digitail.command.AttachmentPayloadCommand;
+import com.aws.codestar.digitail.command.BrowsePayloadCommand;
+import com.aws.codestar.digitail.command.CustomerSupportCommand;
+import com.aws.codestar.digitail.command.DefaultPayloadCommand;
+import com.aws.codestar.digitail.command.GetStartedPayloadCommand;
+import com.aws.codestar.digitail.command.GraceReplyPayloadCommand;
+import com.aws.codestar.digitail.command.GreetingPayloadCommand;
+import com.aws.codestar.digitail.command.OfferPayloadCommand;
+import com.aws.codestar.digitail.command.PayloadCommand;
+import com.aws.codestar.digitail.command.PostbackPayloadCommand;
+import com.aws.codestar.digitail.command.SearchPayloadCommand;
+import com.aws.codestar.digitail.command.SupportPayloadCommand;
+import com.aws.codestar.digitail.command.SwearPayloadCommand;
+import com.aws.codestar.digitail.util.BotUtil;
+import com.aws.codestar.digitail.util.DigitailStringConstants;
 import com.google.gson.Gson;
 
 @Component

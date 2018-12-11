@@ -1,4 +1,4 @@
-package com.digitail;
+package com.aws.codestar.digitail;
 
 import java.io.IOException;
 import java.util.Map;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.digitail.model.UserLogin;
-import com.digitail.util.DigitailStringConstants;
+import com.aws.codestar.digitail.model.UserLogin;
+import com.aws.codestar.digitail.util.DigitailStringConstants;
 
 @Controller
 @RequestMapping("/authorize")

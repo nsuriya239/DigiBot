@@ -1,4 +1,4 @@
-package com.digitail.util;
+package com.aws.codestar.digitail.util;
 
 public interface DigitailStringConstants {
 

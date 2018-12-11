@@ -1,11 +1,11 @@
-package com.digitail.model;
+package com.aws.codestar.digitail.model;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.digitail.util.DigitailStringConstants;
+import com.aws.codestar.digitail.util.DigitailStringConstants;
 
 @Component
 public class Mobiles extends ProductModel {

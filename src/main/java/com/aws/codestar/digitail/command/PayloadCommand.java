@@ -1,8 +1,8 @@
-package com.digitail.command;
+package com.aws.codestar.digitail.command;
 
 import java.io.Serializable;
 
-import com.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.PageObjectBean;
 
 public interface PayloadCommand {
 

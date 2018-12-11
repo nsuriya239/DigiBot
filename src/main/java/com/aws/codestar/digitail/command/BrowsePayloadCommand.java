@@ -1,4 +1,4 @@
-package com.digitail.command;
+package com.aws.codestar.digitail.command;
 
 import java.io.Serializable;
 import java.util.Map;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.digitail.bean.PageObjectBean;
-import com.digitail.bean.reply.ReplyObj;
-import com.digitail.util.BotUtil;
+import com.aws.codestar.digitail.bean.PageObjectBean;
+import com.aws.codestar.digitail.bean.reply.ReplyObj;
+import com.aws.codestar.digitail.util.BotUtil;
 
 @Component
 public class BrowsePayloadCommand implements PayloadCommand {
