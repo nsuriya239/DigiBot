@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Apple iPhone 7",
+    "description": "Apple iPhone 7 (Jet Black, 128 GB)",
+    "price": "$699",
+    "images": "/images/products/iphone7.jpg",
+    "reviews": "58",
+	"rating":4
+  },
+    {
+    "name": "Iphone 6s",
+    "description": "Apple iPhone 6S (Silver, 64 GB)",
+    "price": "$399",
+    "images": "/images/products/iphone6.jpg",
+    "reviews": "12",
+	"rating":4
+  },
+    {
+    "name": "Samsung S7",
+    "description": "Samsung Galaxy S7 Gold 32GB",
+    "price": "$799",
+    "images": "/images/products/samsungS7.jpg",
+    "reviews": "25",
+	"rating":3
+  },
+    {
+    "name": "Moto X Play",
+    "description": "Moto X Play(With Turbo Charger) (Black, 32 GB)",
+    "price": "$799",
+    "images": "/images/products/motoxplay.jpg",
+    "reviews": "11",
+	"rating":5
+  },
+    {
+    "name": "LG Full HD TV",
+    "description": "LG 44 inch Full HD TV",
+    "price": "$399",
+    "images": "/images/products/lgfullhd.jpg",
+    "reviews": "12",
+	"rating":3
+  },
+    {
+    "name": "Samsung Smart TV",
+    "description": "Samsung 32 inch smart TV",
+    "price": "$599",
+    "images": "/images/products/samasungsmart.jpg",
+    "reviews": "12",
+	"rating":2
+  },
+    {
+    "name": "Phlips Steam Iron",
+    "description": "Philips 600W Steam Iron (blue)",
+    "price": "$85",
+    "images": "/images/products/ironbox.jpg",
+    "reviews": "12",
+	"rating":6
+  },  {
+    "name": "LG Refrigerator",
+    "description": "LG double Door Refrigerator 4 star power rating",
+    "price": "$249",
+    "images": "/images/products/fridge.jpg",
+    "reviews": "12",
+	"rating":5
+  },  {
+    "name": "Lenovo g500s",
+    "description": "Lenovo G500s i3 5th Gen",
+    "price": "$429",
+    "images": "/images/products/lenovo.jpg",
+    "reviews": "12",
+	"rating":3
+  },  {
+    "name": "Dell Inspiron",
+    "description": "Dell Inspiron i5 6th Gen",
+    "price": "$399",
+    "images": "/images/products/delllaptop.jpg",
+    "reviews": "12",
+	"rating":2
+  },  {
+    "name": "Philips Toaster",
+    "description": "Philips electric Toaster",
+    "price": "$35",
+    "images": "/images/products/toaster.jpg",
+    "reviews": "12",
+	"rating":2
+  },  {
+    "name": "LG Microwave Oven",
+    "description": "LG 600W Microwave Oven",
+    "price": "$199",
+    "images": "/images/products/oven.jpg",
+    "reviews": "12",
+	"rating":3
+  }, {
+    "name": "Whirlphool Washing Machine",
+    "description": "Whirlpool front load Fully Automatic washine machine",
+    "price": "$249",
+    "images": "/images/products/washing.jpg",
+    "reviews": "12",
+	"rating":4
+  }
+  
+  ]

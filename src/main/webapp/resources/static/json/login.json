@@ -1,0 +1,25 @@
+{  
+   "recipient":{  
+      "id":""
+   },
+   "message":{  
+      "attachment":{  
+         "type":"template",
+         "payload":{  
+            "template_type":"generic",
+            "elements":[  
+               {  
+                  "title":"Welcome to Digitail",
+                  "image_url":"https://digitail.herokuapp.com/images/click_me.jpg",
+                  "buttons":[  
+                     {  
+                        "type":"account_link",
+                        "url":"https://digitail.herokuapp.com//authorize"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   }
+}

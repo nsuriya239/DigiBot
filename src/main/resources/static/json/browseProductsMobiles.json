@@ -1,0 +1,111 @@
+{  
+   "recipient":{  
+      "id":""
+   },
+   "message":{  
+      "attachment":{  
+         "type":"template",
+         "payload":{  
+            "template_type":"list",
+            "top_element_style":"compact",
+            "elements":[  
+               {  
+                  "title":"IPhone 6",
+                  "image_url":"https://digitail.herokuapp.com/images/products/iphone6.jpg",
+                  "subtitle":"$500",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=iphone6",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=iphone6",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Samsung S7",
+                  "image_url":"https://digitail.herokuapp.com/images/products/samsungS7.jpg",
+                  "subtitle":"$300",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=samsungS7",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=samsungS7",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Iphone 7",
+                  "image_url":"https://digitail.herokuapp.com/images/products/iphone7.jpg",
+                  "subtitle":"$600",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=iphone7",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=iphone7",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Samsung Galaxy Core",
+                  "image_url":"https://digitail.herokuapp.com/images/products/samsung-galaxy-core.jpg",
+                  "subtitle":"$250",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=samsung-galaxy-core",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=samsung-galaxy-core",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               }
+            ],
+            "buttons": [
+                {
+                    "title": "View More",
+                    "type": "postback",
+                    "payload": "MoreMobile"                        
+                }
+            ]
+         }
+      }
+   }
+}

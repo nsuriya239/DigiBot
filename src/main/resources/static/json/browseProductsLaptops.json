@@ -1,0 +1,111 @@
+{  
+   "recipient":{  
+      "id":""
+   },
+   "message":{  
+      "attachment":{  
+         "type":"template",
+         "payload":{  
+            "template_type":"list",
+            "top_element_style":"compact",
+            "elements":[  
+               {  
+                  "title":"Lenovo ThinkPad",
+                  "image_url":"https://digitail.herokuapp.com/images/products/lenovo.jpg",
+                  "subtitle":"$800",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=lenovo",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=lenovo",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"HP Thinkpad",
+                  "image_url":"https://digitail.herokuapp.com/images/products/hp.jpg",
+                  "subtitle":"$300",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=hp",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=hp",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Apple Macbook Pro",
+                  "image_url":"https://digitail.herokuapp.com/images/products/Macbook.jpg",
+                  "subtitle":"$600",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=macbook",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=macbook",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Sony Vaio",
+                  "image_url":"https://digitail.herokuapp.com/images/products/Sony.jpg",
+                  "subtitle":"$250",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=sony",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=sony",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               }
+            ],
+            "buttons": [
+                {
+                    "title": "View More",
+                    "type": "postback",
+                    "payload": "MoreLaptop"                        
+                }
+            ]
+         }
+      }
+   }
+}

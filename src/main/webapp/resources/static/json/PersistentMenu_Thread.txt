@@ -1,0 +1,33 @@
+{
+  "setting_type" : "call_to_actions",
+  "thread_state" : "existing_thread",
+  "call_to_actions":[    
+    {
+      "type":"postback",
+      "title":"Offers",
+      "payload":"Offers"
+    },
+	{
+      "type":"postback",
+      "title":"Browse products",
+      "payload":"Search"
+    },
+	{
+      "type":"postback",
+      "title":"Help",
+      "payload":"Help"
+    },
+    {
+      "type":"postback",
+      "title":"Customer Support",            
+      "payload":"Support"
+    },
+    {
+      "type":"web_url",
+      "title":"View Website",
+      "url":"https://digitail.herokuapp.com/"
+    }
+  ]
+}
+
+https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAADQ4Tl4xMkBAD2BuGSFhYNaEBKgeOAtep9ZAmhztYarzj7q4lzwbHIePPboVhlQBYa1DPgjPqrnNUeJkMhG0P5ON0WlAtQY4sdkuh9s4X1pxZAm6T0A4aoIrIoXI6vmMmmvnBBsPc7lkKf7SrYZAUwZC3qyQud22dg2AnSRPQZDZD

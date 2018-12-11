@@ -1,0 +1,111 @@
+{  
+   "recipient":{  
+      "id":""
+   },
+   "message":{  
+      "attachment":{  
+         "type":"template",
+         "payload":{  
+            "template_type":"list",
+            "top_element_style":"compact",
+            "elements":[  
+               {
+                  "title":"Samasung Smart",
+                  "image_url":"https://digitail.herokuapp.com/images/products/samasungsmart.jpg",
+                  "subtitle":"$400",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=samsungsmart",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=samsungsmart",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Apple TV",
+                  "image_url":"https://digitail.herokuapp.com/images/products/AppleTV.jpg",
+                  "subtitle":"$900",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=AppleTV",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=AppleTV",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"MicroMax super",
+                  "image_url":"https://digitail.herokuapp.com/images/products/micromax.jpg",
+                  "subtitle":"$600",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=micromax",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=micromax",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               },
+               {  
+                  "title":"Samsung Super Ultra HD",
+                  "image_url":"https://digitail.herokuapp.com/images/products/suhd.jpg",
+                  "subtitle":"$250",
+                  "default_action":{  
+                     "type":"web_url",
+                     "url":"https://digitail.herokuapp.com/view?product=suhd",
+                     "messenger_extensions":true,
+                     "webview_height_ratio":"tall",
+                     "fallback_url":"https://digitail.herokuapp.com/"
+                  },
+                  "buttons":[  
+                     {  
+                        "title":"Buy",
+                        "type":"web_url",
+                        "url":"https://digitail.herokuapp.com/purchase?product=suhd",
+                        "messenger_extensions":true,
+                        "webview_height_ratio":"tall",
+                        "fallback_url":"https://digitail.herokuapp.com/"
+                     }
+                  ]
+               }
+            ],
+            "buttons": [
+                {
+                    "title": "View More",
+                    "type": "postback",
+                    "payload": "MoreTV"                        
+                }
+            ]
+         }
+      }
+   }
+}

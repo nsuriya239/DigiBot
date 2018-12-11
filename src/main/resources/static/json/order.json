@@ -1,0 +1,61 @@
+{  
+   "recipient":{  
+      "id":""
+   },
+   "message":{
+      "attachment":{  
+         "type":"template",
+         "payload":{  
+            "template_type":"receipt",
+            "recipient_name":"",
+            "order_number":"123456789",
+            "currency":"USD",
+            "payment_method":"Visa 2345",
+            "order_url":"https://digitail.herokuapp.com/order?order_id=123456",
+            "timestamp":"",
+            "elements":[  
+               {  
+                  "title":"Apple Macbook Pro",
+                  "subtitle":"4GB Retina",
+                  "quantity":1,
+                  "price":900,
+                  "currency":"USD",
+                  "image_url":"https://digitail.herokuapp.com/images/Laptops1.jpg"
+               },
+               {  
+                  "title":"Apple Iphone 6",
+                  "subtitle":"IPhone",
+                  "quantity":1,
+                  "price":750,
+                  "currency":"USD",
+                  "image_url":"https://digitail.herokuapp.com/images/mobile1.jpg"
+               }
+            ],
+            "address":{  
+               "street_1":"421 Hacker Way",
+               "street_2":"",
+               "city":"Edina Park",
+               "postal_code":"55423",
+               "state":"MN",
+               "country":"US"
+            },
+            "summary":{  
+               "subtotal":1650.00,
+               "shipping_cost":4.95,
+               "total_tax":6.19,
+               "total_cost":1661.14
+            },
+            "adjustments":[  
+               {  
+                  "name":"New Customer Discount",
+                  "amount":20
+               },
+               {  
+                  "name":"$10 Off Coupon",
+                  "amount":10
+               }
+            ]
+         }
+      }
+   }
+}

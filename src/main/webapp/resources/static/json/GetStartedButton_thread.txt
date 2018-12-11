@@ -1,0 +1,11 @@
+{
+  "setting_type":"call_to_actions",
+  "thread_state":"new_thread",
+  "call_to_actions":[
+    {
+      "payload":"WelcomeBot"
+    }
+  ]
+}
+
+https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAADQ4Tl4xMkBAD2BuGSFhYNaEBKgeOAtep9ZAmhztYarzj7q4lzwbHIePPboVhlQBYa1DPgjPqrnNUeJkMhG0P5ON0WlAtQY4sdkuh9s4X1pxZAm6T0A4aoIrIoXI6vmMmmvnBBsPc7lkKf7SrYZAUwZC3qyQud22dg2AnSRPQZDZD

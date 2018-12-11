@@ -1,0 +1,224 @@
+.navbar-toggle {
+  padding: 10px 0 10px;
+  margin: 25px 15px 25px 0;
+}
+
+ .col-md-3 .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.dropdown {
+			position:relative;
+		}
+.dropdown>.dropdown-menu {
+			top:0;
+			left:100%;
+			margin-top:30%;
+			margin-left:-30%;
+			-webkit-border-radius:0 6px 6px 6px;
+			-moz-border-radius:0 6px 6px 6px;
+			border-radius:0 6px 6px 6px;
+		}
+.dropdown:hover>.dropdown-menu {
+			display:block;
+		}
+.dropdown>a:after {
+			display:block;
+			content:" ";
+			float:right;
+			width:10;
+			height:10;
+			border-color:transparent;
+			border-style:solid;
+			border-width: 5px 0 5px 5px;
+			border-left-color:#cccccc;
+            margin-top: 5px;
+			margin-left:10px;
+		}
+.dropdown:hover>a:after {
+			border-left-color:#ffffff;
+		}
+.dropdown.pull-left {
+			float:none;
+		}
+.dropdown.pull-left>.dropdown-menu {
+			left:-100%;
+			margin-left:10px;
+			-webkit-border-radius:6px 0 6px 6px;
+			-moz-border-radius:6px 0 6px 6px;
+			border-radius:6px 0 6px 6px;
+		}	
+
+.dropdown-submenu {
+			position:relative;
+		}
+.dropdown-submenu>.dropdown-menu {
+			top:0;
+			left:100%;
+			margin-top:-6px;
+			margin-left:-1px;
+			-webkit-border-radius:0 6px 6px 6px;
+			-moz-border-radius:0 6px 6px 6px;
+			border-radius:0 6px 6px 6px;
+		}
+.dropdown-submenu:hover>.dropdown-menu {
+			display:block;
+		}
+.dropdown-submenu>a:after {
+			display:block;
+			content:" ";
+			float:right;
+			width:0;
+			height:0;
+			border-color:transparent;
+			border-style:solid;
+			border-width:5px 0 5px 5px;
+			border-left-color:#cccccc;
+			margin-top:5px;
+			margin-right:-10px;
+		}
+.dropdown-submenu:hover>a:after {
+			border-left-color:#ffffff;
+		}
+.dropdown-submenu.pull-left {
+			float:none;
+		}
+.dropdown-submenu.pull-left>.dropdown-menu {
+			left:-100%;
+			margin-left:10px;
+			-webkit-border-radius:6px 0 6px 6px;
+			-moz-border-radius:6px 0 6px 6px;
+			border-radius:6px 0 6px 6px;
+		}
+
+.glyphicon { margin-right:5px;
+margin-top:5px;
+margin-left:4px;
+margin-bottom:4px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
